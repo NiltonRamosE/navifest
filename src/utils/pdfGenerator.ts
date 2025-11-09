@@ -81,7 +81,7 @@ export const generateEventPDF = async (data: PDFData) => {
 
     <div style="background: rgba(251, 191, 36, 0.2); padding: 25px; border-radius: 20px; text-align: center; border: 1px solid rgba(251, 191, 36, 0.3);">
       <h3 style="font-size: 20px; font-weight: bold; margin: 0 0 15px 0; color: #fbbf24;">🎙️ Animación General</h3>
-      <p style="font-size: 16px; color: white; margin: 0 0 20px 0;">Dennis — Educación Matemática</p>
+      <p style="font-size: 16px; color: white; margin: 0 0 20px 0;">Dennis Dominguez — Educación Matemática</p>
       
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 25px;">
         <div style="text-align: left;">

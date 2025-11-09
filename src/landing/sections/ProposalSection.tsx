@@ -203,7 +203,7 @@ export default function ProposalSection() {
           </div>
           
           <p className="text-center text-white/80 mb-6 mt-12">
-            🎙️ <strong>Animación general:</strong> Dennis — Educación Matemática
+            🎙️ <strong>Animación general:</strong> Dennis Dominguez — Educación Matemática
           </p>
         </motion.div>
 
