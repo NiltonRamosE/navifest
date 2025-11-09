@@ -1,6 +1,7 @@
 ---
 import "@/styles/global.css";
 import LayoutWrapper from '@/components/LayoutWrapper';
+import Analytics from '@vercel/analytics/astro'
 
 export interface SEOFields {
 	robots: string[];
@@ -60,7 +61,7 @@ const {
 		<meta name="twitter:image" content={imagetwt} />
 		<meta name="twitter:site" content="@navifest" />
 		<meta name="twitter:creator" content="@navifest" />
-
+		<Analytics />
 	</head>
 	<body class="min-h-screen flex flex-col">
 		<LayoutWrapper client:load>
