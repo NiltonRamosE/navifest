@@ -1,5 +1,6 @@
 ---
 import "@/styles/global.css";
+import LayoutWrapper from '@/components/LayoutWrapper';
 
 export interface SEOFields {
 	robots: string[];
@@ -62,9 +63,11 @@ const {
 
 	</head>
 	<body class="min-h-screen flex flex-col">
-		<main class="grow">
-			<slot />
-		</main>
+		<LayoutWrapper client:load>
+			<main class="grow">
+				<slot />
+			</main>
+		</LayoutWrapper>
 	</body>
 </html>
 
