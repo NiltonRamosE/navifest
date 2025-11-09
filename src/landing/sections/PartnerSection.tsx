@@ -133,6 +133,7 @@ export default function PartnerSection() {
               <Button 
                 variant="outline"
                 className="border-2 border-purple-400/40 bg-purple-500/10 hover:bg-purple-500/20 text-purple-200"
+                onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
               >
                 Únete como Voluntario
               </Button>
