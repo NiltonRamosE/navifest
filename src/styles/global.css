@@ -86,6 +86,7 @@ body {
 }
 
 :root {
+  --wave-color: #dd3201;
   --radius: 0.625rem;
   --background: #262626;
   --foreground: #fafafa;
