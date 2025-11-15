@@ -12,20 +12,22 @@ export default function PartnerSection() {
       logos: [
         { name: "EPISI", logo: "/logos/logo_episi.webp"},
         { name: "Los Primos", logo: "/logos/los_primos.webp"},
-        { name: "Centro Pastoral", logo: "/logos/logo_pastoral_uns.webp"}
+        { name: "Centro Pastoral", logo: "/logos/logo_pastoral_uns.webp"},
+
       ] 
     },
-    /*
+
     { 
       name: "Patrocinador Plata", 
       size: "medium" as const,
       logos: [
-        { name: "Amazon", logo: "/logos/amazon.png"},
-        { name: "Meta", logo: "/logos/meta.png"},
-        { name: "Netflix", logo: "/logos/netflix.png"},
-        { name: "Spotify", logo: "/logos/spotify.png"}
+        { name: "PUESCHIMBOTE", logo: "/logos/pueschimbote.webp"},
+        { name: "Universidad Nacional del Santa", logo: "/logos/logouns.webp"},
+        { name: "Nilton Ramos Encarnacion", logo: "/logos/logo_nilton.png"},
+        { name: "Próximamente...", logo: ""}
       ] 
     },
+    /*
     { 
       name: "Aliado", 
       size: "small" as const,
