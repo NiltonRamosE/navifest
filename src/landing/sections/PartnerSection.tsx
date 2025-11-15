@@ -236,33 +236,6 @@ export default function PartnerSection() {
             </CardContent>
           </Card>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="mt-16 text-center"
-        >
-          <Card className="bg-linear-to-r from-green-500/10 to-blue-500/10 border-green-400/20">
-            <CardContent className="p-8">
-              <Heart className="h-12 w-12 text-green-300 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-white mb-3">
-                ¿Quieres ser parte de esta misión?
-              </h3>
-              <p className="text-white/75 max-w-2xl mx-auto mb-6">
-                Si tu empresa u organización quiere unirse a nuestra causa y apoyar este proyecto solidario, 
-                contáctanos para conocer las oportunidades de patrocinio disponibles.
-              </p>
-              <Button 
-                className="bg-green-500 hover:bg-green-600 text-white border-green-600"
-                onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-              >
-                Quiero Ser Patrocinador
-              </Button>
-            </CardContent>
-          </Card>
-        </motion.div>
       </div>
     </section>
   );
