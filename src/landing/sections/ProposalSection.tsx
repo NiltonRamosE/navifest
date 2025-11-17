@@ -50,7 +50,7 @@ export default function ProposalSection() {
     },
     {
       time: "",
-      title: "Osvalldo Villanueva",
+      title: "Oswaldo Villanueva",
       desc: "Presentación musical en vivo con un repertorio cargado de emoción y melodías que conectan con el espíritu de la temporada."
     },
     {

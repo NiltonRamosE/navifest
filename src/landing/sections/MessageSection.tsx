@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function MessageSection() {
   const impacts = [
-    { icon: Users, label: "Familias beneficiadas", value: "20+", color: "text-rose-300" },
-    { icon: Gift, label: "Regalos entregados", value: "100+", color: "text-amber-300" },
+    { icon: Users, label: "Familias beneficiadas", value: "50+", color: "text-rose-300" },
+    { icon: Gift, label: "Regalos entregados", value: "200+", color: "text-amber-300" },
     { icon: Heart, label: "Voluntarios unidos", value: "30+", color: "text-red-300" },
     { icon: Sparkles, label: "Sonrisas compartidas", value: "∞", color: "text-yellow-300" }
   ];
