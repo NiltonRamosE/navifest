@@ -5,8 +5,8 @@ interface WhatsAppResponse {
 }
 
 export class WhatsAppService {
-  private static readonly API_URL = 'https://corsproxy.io/?https://whatsapi.tamimaquinarias.com/api/send-image';
-  //private static readonly API_URL = 'https://whatsapi.tamimaquinarias.com/api/send-image';
+  //private static readonly API_URL = 'https://corsproxy.io/?https://whatsapi.tamimaquinarias.com/api/send-image';
+  private static readonly API_URL = 'https://whatsapi.tamimaquinarias.com/api/send-image';
   private static readonly AVAILABLE_IMAGES = [
     '/flyer-light.webp'
   ];
