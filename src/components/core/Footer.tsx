@@ -104,8 +104,15 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 text-center">
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} NaviFest — Centro Pastoral Universitario UNS — 
-            Hecho con ❤️ por voluntarios que creen en el cambio
+            © {new Date().getFullYear()} NaviFest — Centro Pastoral Universitario UNS <br></br>
+            <a 
+              href="https://www.linkedin.com/in/niltonramosencarnacion/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-300 transition-colors"
+            >
+              Nilton Ramos Encarnacion
+            </a>
           </p>
         </div>
       </div>
