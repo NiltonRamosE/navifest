@@ -57,7 +57,7 @@ export default function MessageSection() {
               <p className="text-white/95 font-medium leading-relaxed">
                 <span className="text-amber-300 font-bold">Nuestra misión es sencilla pero llena de corazón: </span> 
                 en esta edición de <strong>NaviFest</strong>, la entrada será un regalo 🎁 — ya sea un juguete, dulces u otros 
-                artículos navideños — destinados a niños y familias de escasos recursos de nuestra comunidad. 
+                artículos navideños — destinados a niños y familias de escasos recursos del AA. HH. Los Jardines de Nuevo Chimbote. 
                 También se aceptan donaciones monetarias, pero priorizamos el gesto de regalar y compartir alegría en persona. ✨
               </p>
             </div>

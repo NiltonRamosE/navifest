@@ -32,7 +32,7 @@ export default function Navbar({ scrollToTop }: NavbarProps) {
             <div className="w-10 h-10 rounded-xl bg-linear-to-br from-amber-400 to-amber-600 flex items-center justify-center">
               <Gift className="h-6 w-6 text-red-950" />
             </div>
-            <span className="font-bold tracking-wide text-xl">NaviFest</span>
+            <span className="font-bold tracking-wide text-xl">NaviFest II</span>
           </div>
 
           {/* Desktop Navigation */}

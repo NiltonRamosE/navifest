@@ -171,8 +171,8 @@ export default function HeroSection() {
             transition={{ delay: 1.2, type: "spring" }}
             className="absolute -bottom-6 -left-6 bg-linear-to-br from-green-500 to-emerald-600 text-white px-6 py-4 rounded-2xl shadow-xl"
           >
-            <div className="text-sm font-medium opacity-90">¡Tu apoyo cuenta!</div>
-            <div className="text-2xl font-extrabold">Te esperamos</div>
+            <div className="text-sm font-medium opacity-90">Ayudemos a los niños de:</div>
+            <div className="text-2xl font-extrabold">AA. HH. Los Jardines de Nuevo Chimbote</div>
           </motion.div>
         </motion.div>
       </div>
