@@ -65,7 +65,7 @@ export default function HeroSection() {
 
           <div>
             <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight">
-              <span className="text-white">NaviFest</span>
+              <span className="text-white">II NaviFest</span>
               <span className="block text-transparent bg-clip-text bg-linear-to-r from-amber-200 via-amber-400 to-yellow-300 mt-2">
                 Celebra. Ayuda. Inspira.
               </span>
