@@ -38,63 +38,42 @@ export default function ProposalSection() {
 
   const SCHEDULE_ITEMS = [
     {
-      time: "",
+      time: "6:00 pm",
       title: "Apertura & Bienvenida",
-      desc: "Inicio del evento con un mensaje especial de la organización, presentando la causa solidaria, los objetivos del encuentro y dando la bienvenida a todos los asistentes.",
+      desc: "Inicio del evento con un mensaje de bienvenida, presentando la causa solidaria y los objetivos del encuentro.",
       highlight: true
     },
     {
-      time: "",
-      title: "Sonora Santeña",
-      desc: "Show musical a cargo de la reconocida orquesta local, con ritmos festivos, temas navideños y un ambiente lleno de energía para abrir la celebración con alegría."
-    },
-    {
-      time: "",
-      title: "Oswaldo Villanueva",
-      desc: "Presentación musical en vivo con un repertorio cargado de emoción y melodías que conectan con el espíritu de la temporada."
-    },
-    {
-      time: "",
-      title: "Diogo Flores & Fernando Cholán (DJ Set)",
-      desc: "Un DJ set moderno con sonidos electrónicos y beats festivos que llenarán el ambiente de ritmo, diversión y un toque contemporáneo para todos los asistentes."
-    },
-    {
-      time: "",
-      title: "Fer Burgos",
-      desc: "Interpretación acústica de temas navideños y canciones inspiradoras, creando un espacio de calma, reflexión y esperanza."
-    },
-    {
-      time: "",
-      title: "Daniel Medina",
-      desc: "Actuación musical destacada con interpretaciones llenas de sensibilidad y un estilo que invita a disfrutar de la magia de la música en Navidad."
-    },
-    {
-      time: "",
-      title: "Participantes de Educación",
-      desc: "Presentación artística realizada por estudiantes, quienes compartirán bailes navideños llenos de creatividad, entusiasmo y espíritu festivo."
-    },
-    {
-      time: "",
-      title: "Marcos",
-      desc: "Interpretación vocal con un repertorio especial preparado para la ocasión, lleno de melodías que capturan el encanto de estas fiestas."
-    },
-    {
-      time: "",
-      title: "Maribel Astete",
-      desc: "Actuación musical con una voz cálida y expresiva, interpretando canciones que celebran la unión, la familia y la Navidad."
-    },
-    {
-      time: "",
+      time: "6:30 pm",
       title: "Ángel Oyola",
-      desc: "Presentación con un estilo vocal único, compartiendo canciones que transmiten alegría, emoción y el verdadero espíritu navideño."
+      desc: "Presentación vocal que transmite alegría y emoción, capturando el espíritu festivo del evento."
+    },
+    {
+      time: "7:00 pm",
+      title: "Sonora Santeña",
+      desc: "Show musical con ritmos festivos que invitan a disfrutar y celebrar en comunidad."
+    },
+    {
+      time: "8:00 pm",
+      title: "Maribel Astete",
+      desc: "Actuación con una voz cálida y expresiva, que celebra la unión y el espíritu colectivo."
+    },
+    {
+      time: "8:30 pm",
+      title: "Fer Burgos",
+      desc: "Fer Burgos conecta con el público a través de sus poderosas canciones, creando un espacio agradable."
+    },
+    {
+      time: "9:00 pm",
+      title: "Cuba Libre",
+      desc: "Grupo musical que pone energía y ritmo al cierre del evento."
     },
     {
       time: "",
       title: "Cierre y Agradecimientos",
-      desc: "Mensaje final de despedida en el que se agradece a los participantes, artistas y asistentes por su apoyo, destacando el valor de la solidaridad y el sentido comunitario del evento."
+      desc: "Despedida agradeciendo a los participantes, artistas y asistentes por su apoyo y compromiso."
     }
   ];
-
 
   const { downloadPDF, isGenerating } = usePDFDownload({
     onSuccess: () => console.log('PDF descargado exitosamente'),
