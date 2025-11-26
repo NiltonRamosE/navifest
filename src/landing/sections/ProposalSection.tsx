@@ -55,6 +55,11 @@ export default function ProposalSection() {
     },
     {
       time: "8:00 pm",
+      title: "Marco Gonzales Arena",
+      desc: "Una noche de música y emoción con Marco Gonzales. ¡No faltes!"
+    },
+    {
+      time: "8:15 pm",
       title: "Maribel Astete",
       desc: "Actuación con una voz cálida y expresiva, que celebra la unión y el espíritu colectivo."
     },
@@ -67,6 +72,11 @@ export default function ProposalSection() {
       time: "9:00 pm",
       title: "Cuba Libre",
       desc: "Grupo musical que pone energía y ritmo al cierre del evento."
+    },
+    {
+      time: "9:45 pm",
+      title: "DJ Kleider Aliaga",
+      desc: "DJ que viene con toda la vibra :D."
     },
     {
       time: "",
