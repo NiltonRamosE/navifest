@@ -72,7 +72,7 @@ export default function DonateSection() {
                     Yapea al: <span className="text-red-900 font-bold">900 749 214</span>
                   </p>
                   <p className="text-red-900/60 text-xs mt-1">
-                    (Ana Belen Estrada Guanilo - Centro Pastoral Universitario UNS)
+                    (Ana Belen Estrada Guanilo - Centro Pastoral Universitario UNS) con el mensaje "Navifest"
                   </p>
                 </div>
               </div>
