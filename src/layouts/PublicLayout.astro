@@ -64,11 +64,14 @@ const {
 		<Analytics />
 	</head>
 	<body class="min-h-screen flex flex-col">
-		<LayoutWrapper client:load>
+		<main class="grow">
+			<slot />
+		</main>
+		<!-- <LayoutWrapper client:load>
 			<main class="grow">
 				<slot />
 			</main>
-		</LayoutWrapper>
+		</LayoutWrapper> -->
 	</body>
 </html>
 
